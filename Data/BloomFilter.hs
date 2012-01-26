@@ -81,9 +81,6 @@ module Data.BloomFilter
     -- conventions for endianness or word size.
 
     -- | The raw bit array used by the immutable 'Bloom' type.
-    , hashB
-    , shiftB
-    , maskB
     , bitArrayB
 
     -- | The raw bit array used by the immutable 'MBloom' type.
